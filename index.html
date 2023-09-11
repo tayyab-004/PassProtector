@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PassProtector | Secure Your Passwords</title>
+</head>
+<body>
+    
+    <nav>
+        <div class="logo">PassProtector</div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <br>
+
+    <div class="container">
+
+        <h1>Password Manager</h1>
+        <p>
+            Welcome to PassProtector - Your Trusted Guardian of Online Security! 
+            Safeguarding your digital world starts here. 
+            Let's embark on a journey of secure and hassle-free password management together.
+        </p>
+        <h2>Your Passwords <span id="alert">(Copied!)</span></h2>
+
+        <table>
+            <tr>
+              <th>Website</th>
+              <th>Username</th>
+              <th>Password</th>
+              <th>Delete</th>
+            </tr>
+          </table>
+
+          <br>
+          <h2>Add a Passwords</h2>
+
+          <form action="/submit" method="post">
+            <!-- Text input for website -->
+            <label for="website">Website:</label>
+            <input type="text" id="website" name="website" required>
+            <br><br>
+
+            <!-- Text input for username -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+        
+            <!-- Password input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+        
+            <!-- Submit button -->
+            <button type="submit" class="btn">Submit</button>
+          </form>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
