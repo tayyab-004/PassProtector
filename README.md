@@ -2,10 +2,6 @@
 
 Welcome to PassProtector, your go-to solution for securely managing your passwords. This web application is designed with a focus on user privacy and security. With a combination of HTML, CSS, and JavaScript, PassProtector ensures that users can confidently store their website names, usernames, and passwords in their browser's local storage, keeping this sensitive information accessible only to them.
 
-## PassProtector is live here
-
-https://pass-protector.netlify.app/
-
 
 ## Features
 
